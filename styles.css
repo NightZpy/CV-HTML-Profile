@@ -1,0 +1,49 @@
+.tags{display:block;overflow:hidden;width:35%;}
+.tags{float:left;margin:6px 1px;overflow:hidden;display:block;}
+.tags label{line-height: 40px;margin: 0 3px 0 0;padding:3px 8px;font-size:11px;text-decoration:none;-moz-border-radius:15px;-webkit-border-radius:15px;}
+.tags label:hover{border-color:#1BA7D6;}
+.tags{color:#000!important; font-family: 'Molengo', serif}
+.tags label{background:#DBDEE6;border:1px solid #1BA7D6; font-size: 16px;}
+.tags label:hover{background:#F2142A;border-color:#0645F2;}
+
+#container{
+	position: relative;
+	width: 95%;
+	border: 3px;
+	margin: 0 auto;
+}
+
+#header{
+	display: inline-block;
+}
+
+#profile{
+	position: relative;
+	width: 30%;
+	border: 2px solid #2a3b4c;
+	float: left;
+	padding: 5px;
+}
+
+#main {
+	float: left;
+}
+
+#photo {
+	background-image: url("./profile.jpg");
+	float: left;
+}
+
+#profProfile{
+	position: relative;
+	width: 70%;
+	border: 2px solid #2a3b4c;
+	float: left;
+	padding: 5px;	
+}
+
+#profProfile pre p {
+	width: 30%;
+	padding: 1px;
+	float: left;
+}
