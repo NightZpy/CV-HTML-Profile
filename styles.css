@@ -15,11 +15,12 @@
 
 #header{
 	display: inline-block;
+	width: 95%;
 }
 
 #profile{
 	position: relative;
-	width: 30%;
+	width: 60%;
 	border: 2px solid #2a3b4c;
 	float: left;
 	padding: 5px;
@@ -27,13 +28,19 @@
 
 #main {
 	float: left;
+	width: 35%;
 }
 
 #photo {
-	background-image: url("./profile.jpg");
+	
 	float: left;
+	width: 25%;
+	height: auto;
 }
 
+#photo img {
+	src: url("./profile.jpg");
+}
 #profProfile{
 	position: relative;
 	width: 70%;
