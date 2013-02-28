@@ -25,10 +25,10 @@
     float: left;     
     position: fixed;  
     margin-top: 12%;           
-    margin-left: 2%;  
+    margin-left: 5%;  
     overflow: hidden;     
     text-align: center;     
-    width: 15%; 
+    width: 17%; 
 }
 
 .go_top {
@@ -221,7 +221,7 @@
 .title {
 	float: left;
 	background: none repeat scroll 0 0;
-	width: 30%;
+	width: 20%;
 }
 
 .content {
@@ -232,7 +232,7 @@
 
 .content h4 {	
 	width: 50%;
-	font-size: 125%;
+	font-size: 100%;
 	font-weight: bold;
 	text-transform: uppercase;
     line-height: 110%;
@@ -270,8 +270,8 @@ h3 {
     color: #FFFFFF;
     float: left;
     font-family: 'MyriadProBlackCondensed', Arial, Verdana;
-    font-size: 47px;
-    font-weight: normal;
+    font-size: 25px;
+    font-weight: bold;
     line-height: 80px;
     margin: 30px 0 17px;
     padding: 0 10px;
@@ -285,9 +285,10 @@ h3 {
 #container{
 	background-color:  #5C0001;
 	position: relative;
-	width: 60%;
+	width: 75%;
 	border: 3px;
 	margin: 0 auto;
+	margin-left: 24%;
 }
 
 #profile{
