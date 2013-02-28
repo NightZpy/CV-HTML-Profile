@@ -31,6 +31,22 @@
     width: 15%; 
 }
 
+.go_top {
+	color: red;
+	font-family: 'MyriadProBold', Arial, Verdana;
+	font-size: 125%;
+	font-weight: bold;
+	text-transform: uppercase;	
+	margin-bottom: 12%;
+	margin-top: 9%;
+	padding: 0.4%;
+	width: 4%
+}
+
+.go_top a:visited {
+	color: red;
+}
+
 .interests {
 	float: left;
 	margin: 0 auto;
@@ -247,6 +263,7 @@
 
 .skills {
 	background-color: #959302;
+	margin-left: 110%;
 }
 
 h3 {

@@ -31,9 +31,12 @@
 			<label for="">educación</label>
 			<label for="">online</label>
 		</div>
-	</div>		
+	</div>
+	<div class="tags_ever go_top">
+		<label for=""><a href="#header">Subir</a></label>
+	</div>
 	<div id="container">
-		<div id="header" class="top">
+		<div name="header" id="header" class="top">
 			<div id="profile">
 				<div class="profileLeft">
 					<h1>Paúl Lenyn Cuao Alcántara</h1>
@@ -119,10 +122,18 @@
 					<h3 class="languajes">Idiomas</h3>
 				</div>
 				<div class="content">
-					<ul>
-						<li>Español</li>
-						<li>Inglés</li>
-					</ul>
+					<div id="native">
+						<h4>Nativo</h4>	
+						<ul>
+							<li>Español</li>
+						</ul>
+					</div>
+					<div id="no_native">
+						<h4>Otros</h4>	
+						<ul>
+							<li>Ingles</li>
+						</ul>
+					</div>					
 				</div>
 			</div>
 			<div id="skills" class="block">
@@ -133,47 +144,43 @@
 					<div id="programmingLang" class="skills_block">
 						<h4>Lenguajes de Programación</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/C%2B%2B">C/C++</a>
-									<ul>Frameworks
-										<li><a target='_blank'  href="http://es.wikipedia.org/wiki/QT">QT</a></li>
-									</ul>
-								</li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Ruby">Ruby</a>
-									<ul>Frameworks
-										<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Ruby_On_Rails">Ruby On Rails</a></li>
-									</ul>
-								</li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Python">Python</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Java">Java</a>
-									<ul>Frameworks
-										<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Desarrollo_de_Programas_para_Android">Android SDK</a></li>
-									</ul>
-								</li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/C_Sharp">C#</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/JavaScript">JavaScript</a>
-									<ul>Frameworks
-										<li><a target='_blank'  href="http://es.wikipedia.org/wiki/JQuery">JQuery</a></li>
-									</ul>								
-								</li>							
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/PHP">PHP</a>
-									<ul>Frameworks
-										<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Yii">Yii</a></li>
-									</ul>								
-								</li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/C%2B%2B">C/C++</a>
+								<ul>
+									<li><a target='_blank'  href="http://es.wikipedia.org/wiki/QT">QT</a></li>
+								</ul>
+							</li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Ruby">Ruby</a>
+								<ul>
+									<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Ruby_On_Rails">Ruby On Rails</a></li>
+								</ul>
+							</li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Python">Python</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Java">Java</a>
+								<ul>
+									<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Desarrollo_de_Programas_para_Android">Android SDK</a></li>
+								</ul>
+							</li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/C_Sharp">C#</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/JavaScript">JavaScript</a>
+								<ul>
+									<li><a target='_blank'  href="http://es.wikipedia.org/wiki/JQuery">JQuery</a></li>
+								</ul>								
+							</li>							
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/PHP">PHP</a>
+								<ul>
+									<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Yii">Yii</a></li>
+								</ul>								
+							</li>
 						</ul>
 					</div>
 					<div id="markupLang" class="skills_block">
 						<h4>Lenguajes de Marcado</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="">HTML 4</a></li>
-								<li><a target='_blank'  href="">HTML5</a></li>
-								<li><a target='_blank'  href="">XHTML</a></li>
-								<li><a target='_blank'  href="">YAML</a></li>
-								<li><a target='_blank'  href="">XML</a></li>
-							</ul>
+							<li><a target='_blank'  href="">HTML 4</a></li>
+							<li><a target='_blank'  href="">HTML5</a></li>
+							<li><a target='_blank'  href="">XHTML</a></li>
+							<li><a target='_blank'  href="">YAML</a></li>
+							<li><a target='_blank'  href="">XML</a></li>
 						</ul>
 					</div>
 					<div id="presentationLang" class="skills_block">
@@ -194,25 +201,21 @@
 					<div id="gameEngines" class="skills_block">
 						<h4>Motores de Juegos y Librerías Gráficas</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Game_Blender">BGE</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Unity_(software)">Unity3D</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Unreal_Engine">UDK</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/SFML">SFML</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/PyGame">SFML</a></li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Game_Blender">BGE</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Unity_(software)">Unity3D</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Unreal_Engine">UDK</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/SFML">SFML</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/PyGame">SFML</a></li>
 						</ul>
 					</div>
 				
 					<div id="dataBases" class="skills_block">
 						<h4>Gestores de Bases de Datos</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Mysql">Mysql</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Oracle_Database">Oracle</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/SQLite">SQLite</a></li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Mysql">Mysql</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Oracle_Database">Oracle</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/SQLite">SQLite</a></li>
 						</ul>
 					</div>
 					<div class="skills_block">
@@ -223,39 +226,31 @@
 					<div id="2dSoft" class="skills_block">
 						<h4>Software de Edición 2D</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/GIMP">GIMP</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Photoshop">Photoshop</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Inksape">Inksape</a></li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/GIMP">GIMP</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Photoshop">Photoshop</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Inksape">Inksape</a></li>
 						</ul>
 					</div>
 					<div id="3dSoft" class="skills_block">
 						<h4>Software de Edición 3D</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Blender">Blender 3D</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Cinema4D">Cinema4D</a></li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Blender">Blender 3D</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Cinema4D">Cinema4D</a></li>
 						</ul>
 					</div>
 					<div id="officeSuites" class="skills_block">
 						<h4>Suites de Ofimática</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Microsoft_Office">Microsoft Office</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/LibreOffice">Libre Office</a></li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Microsoft_Office">Microsoft Office</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/LibreOffice">Libre Office</a></li>
 						</ul>
 					</div>
 					<div id="os" class="skills_block">
 						<h4>Sistemas Operativos</h4>
 						<ul>
-							<ul>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/GNU/Linux">Linux</a></li>
-								<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Android">Android</a></li>
-							</ul>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/GNU/Linux">Linux</a></li>
+							<li><a target='_blank'  href="http://es.wikipedia.org/wiki/Android">Android</a></li>
 						</ul>
 					</div>
 					<div id="noTecnical">
@@ -264,6 +259,6 @@
 				</div>
 			</div>			
 		</div>		
-	</div>
+	</div>	
 </body>
 </html>
