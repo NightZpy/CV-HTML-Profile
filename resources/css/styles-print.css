@@ -19,13 +19,71 @@
     font-style: italic;
 }
 
-.tags{display:block;overflow:hidden;width:35%;}
-.tags{float:left;margin:6px 1px;overflow:hidden;display:block;}
-.tags label{line-height: 40px;margin: 0 3px 0 0;padding:3px 8px;font-size:11px;text-decoration:none;-moz-border-radius:15px;-webkit-border-radius:15px;}
-.tags label:hover{border-color:#1BA7D6;}
-.tags{color:#000!important; font-family: 'Molengo', serif}
-.tags label{background:#DBDEE6;border:1px solid #1BA7D6; font-size: 16px;}
-.tags label:hover{background:#F2142A;border-color:#0645F2;}
+.tags_ever {      
+	background-color: #5C0001;
+    border-radius: 20px 20px 20px 20px;     
+    float: left;     
+    position: fixed;  
+    margin-top: 12%;           
+    margin-left: 2%;  
+    overflow: hidden;     
+    text-align: center;     
+    width: 15%; 
+}
+
+.interests {
+	float: left;
+	margin: 0 auto;
+	width: 30%;	
+}
+
+.interests h3 {
+    color: #FFFFFF;
+    float: left;
+    font-family: 'MyriadProBlackCondensed', Arial, Verdana;
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 5% 0 0 5%;
+    padding: 0 10px;
+    text-transform: uppercase;	
+}
+
+.tags{
+	display:block;
+	overflow:hidden;
+	width:90%;
+	float: left;
+	margin: 2% 0% 2% 5%;
+}
+.tags label{
+	line-height: 40px;
+	margin: 0 3px 0 0;
+	padding:3px 8px;
+	font-size: 11px;
+	text-decoration:none;
+	border-radius:50px;
+}
+.tags label:hover{
+	/*border-color:#1BA7D6;*/
+}
+
+.tags{
+	font-family: 'MyriadProBoldCondit', Arial, Verdana;
+	color:#FFF!important; 
+	text-transform: lowercase;
+}
+.tags label{
+	background:#450001;
+	border:1px solid #FEB600; 
+	font-size: 16px;
+}
+.tags label:hover{
+	/*background:#F2142A;*/
+	/*border-color:#0645F2;*/
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 /* Class Definitions*/
 
@@ -188,10 +246,6 @@
 }
 
 .skills {
-	background-color: #959302;
-}
-
-.interests{
 	background-color: #959302;
 }
 
