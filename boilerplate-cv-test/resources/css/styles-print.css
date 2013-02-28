@@ -208,8 +208,10 @@
 }
 
 .middle {
-	width: 96%;
+	width: 98%;
 	margin: 0 auto;
+	padding-right: 0%;
+	padding-left: 0%;
 }
 
 .block {
@@ -227,7 +229,8 @@
 .content {
 	float: left;
 	margin-top: 2.5%;
-	margin-left: 3%;
+	margin-left: 4.1%;
+	margin-right: 0%;
 }
 
 .content h4 {	
@@ -254,7 +257,7 @@
 }
 
 .projects {
-	background-color: #959302;
+	background-color: #FF0080;
 }
 
 .languajes {
@@ -262,7 +265,7 @@
 }
 
 .skills {
-	background-color: #959302;
+	background-color: #804000;
 	margin-left: 110%;
 }
 
