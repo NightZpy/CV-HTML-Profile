@@ -328,13 +328,27 @@ a:visited { color: brown; }
 		font-size: 55%;
 	}
 
+	.top h1 {
+		font-size: 130%;
+	}
+
 	.top .profileRight {
 		float: left;
 		width: 100%;
 	}
 
+	.top p {
+		font-size: 13px;		
+	}
+
+	.top .profProfile p {	
+		font-size: 10px;
+		line-height: 10px;
+	}	
+
 	.top h2 {
 		font-size: 90%;
+		line-height: 12px;
 	}	
 }
 
@@ -348,8 +362,18 @@ a:visited { color: brown; }
 		width: 100%;
 	}	
 
+	.top p {
+		font-size: 13px;		
+	}
+
+	.top .profProfile p {	
+		font-size: 10px;
+		line-height: 10px;
+	}	
+
 	.top h2 {
 		font-size: 110%;
+		line-height: 15px;
 	}
 }
 
@@ -357,6 +381,10 @@ a:visited { color: brown; }
 	.interests h3 {
 		font-size: 110%;
 	}
+
+	.top h2 {
+		line-height: 18px;
+	}	
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
